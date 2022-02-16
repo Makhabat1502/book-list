@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Add book</h1>
+            <form id="book-form">
+                <label for="title"><h3>Title</h3></label>
+                <input class="title" type="text">
+                <label for="author"><h3>Author</h3></label>
+                <input class="author" type="text">
+                <label for="isbn"><h3>ISBN</h3></label>
+                <input class="isbn" type="text">
+                <br>
+                <button class="btn">Add book</button>
+            </form>
+            <table class="table-output">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN</th>
+                    </tr>
+                </thead>
+                <tbody id="book-list"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

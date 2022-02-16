@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+h1 {
+    color: purple;
+}
+
+.wrapper {
+    width: 80%;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    min-height: 30px;
+}
+
+.btn {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 81%;
+    min-height: 35px;
+    color: white;
+    background-color: rgb(58, 179, 58);
+}
+
+.table-output {
+    width: 80%;
+}
